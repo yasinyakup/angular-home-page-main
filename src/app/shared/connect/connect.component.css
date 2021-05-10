@@ -1,0 +1,21 @@
+.social a{
+	font-size: 4em;
+	padding: 3rem;
+}
+
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-whatsapp{
+    color: #4fce5d;
+}
+
+.fa-instagram{
+    color: #8a3ab9;
+}
+
+.fa-weixin{
+    color:  #9de60b;
+}

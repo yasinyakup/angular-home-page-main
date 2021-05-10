@@ -1,0 +1,30 @@
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.fa-building {
+	color: #e54d26;
+}
+
+.fa-id-card {
+	color: #3757e6;
+}
+
+.fa-money {
+	color: #d68306;
+}
+
+.fa-building, .fa-id-card, .fa-money {
+	font-size: 4rem;
+	margin: 1rem;
+}

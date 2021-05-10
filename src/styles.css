@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+html body {
+	font-family: 'Alegreya', sans serif;
+	color: #222;
+	height: 100%;
+	width: 100%;
+}
+
+
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+.grey-logo{
+	padding-top: 1.4rem;
+	padding-bottom: .4rem;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+
+
+
+.fun {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+
+
