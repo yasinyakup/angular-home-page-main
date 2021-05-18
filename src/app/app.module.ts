@@ -17,8 +17,8 @@ import { ConnectComponent } from './shared/connect/connect.component';
 import { AboutComponent } from './component/about/about.component';
 import { ServiceComponent } from './component/service/service.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
-import { ContactComponent } from './component/contact/contact.component';
 import { FloatComponent } from './shared/float/float.component';
+import { MessageComponent } from './shared/message/message.component';
 
 @NgModule({
   declarations: [
@@ -36,8 +36,8 @@ import { FloatComponent } from './shared/float/float.component';
     AboutComponent,
     ServiceComponent,
     GalleryComponent,
-    ContactComponent,
-    FloatComponent
+    FloatComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,

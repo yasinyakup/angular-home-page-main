@@ -13,7 +13,7 @@
 
 .whatsapp{
     background-color:#25d366;
-    right:20px;
+    right:100px;
 }
 .wechat{
     background-color:#9de60b;
@@ -21,12 +21,9 @@
 }
 .message{
 	background-color:#FF8C00;
-    right:100px;
+    right:20px;
 }
 
-.my-float{
-	bottom: 5px;
-}
 
 
 a:hover{
