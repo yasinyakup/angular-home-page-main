@@ -21,6 +21,7 @@
 .col-md-9{
     background: #fff;
     padding: 4%;
+    color: black !important;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }

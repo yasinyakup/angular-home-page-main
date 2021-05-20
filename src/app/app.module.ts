@@ -19,6 +19,7 @@ import { ServiceComponent } from './component/service/service.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
 import { FloatComponent } from './shared/float/float.component';
 import { MessageComponent } from './shared/message/message.component';
+import { PopupComponent } from './shared/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MessageComponent } from './shared/message/message.component';
     ServiceComponent,
     GalleryComponent,
     FloatComponent,
-    MessageComponent
+    MessageComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
