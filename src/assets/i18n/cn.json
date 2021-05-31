@@ -1,0 +1,18 @@
+{
+    "home": {
+        "title": "OrientExpress1",
+        "navmenu1": "主页",
+        "navmenu2": "关于",
+        "navmenu3": "服务",
+        "navmenu4": "项目专区",
+        "navmenu5": "联系",
+        "service1": "投资咨询",
+        "service2": "税务服务",
+        "service3": "移民咨询",
+        "service4": "房地产咨询",
+        "service5": "资产管理"
+    },
+    "jumbotron":{
+        "text":"Orient Express Investments（OE Investments）是土耳其的一家房地产营销和投资咨询公司，该公司在全球范围内联系了土耳其开发商和中国投资者。 它的成立是为了在房地产领域提供值得信赖的一流服务，并于2018年9月颁布了新的《公民身份和资产法》之后为外国投资敞开了大门"
+        }
+}

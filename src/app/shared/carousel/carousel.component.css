@@ -1,8 +1,9 @@
 
-.carousel-inner img {
+.slider {
 	width: 100%;
 	height: 650px;
 }
+
 
 .carousel-caption {
 	position: absolute;
@@ -26,4 +27,10 @@
 .img-fluid {
     height: 70%;
     width:100%;
+   }
+
+   .icon{
+	   width: 45px;
+	   height: 45px;
+	   border-radius: 50%;
    }

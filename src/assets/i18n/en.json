@@ -1,0 +1,18 @@
+{
+    "home": {
+        "title": "OrientExpress",
+        "navmenu1": "HOME",
+        "navmenu2": "ABOUT",
+        "navmenu3": "SERVICES",
+        "navmenu4": "GALLERY",
+        "navmenu5": "CONTACT",
+        "service1": "Investment",
+        "service2": "Taxation",
+        "service3": "Citizinship",
+        "service4": "Real Estate",
+        "service5": "Asset Management"
+    },
+    "jumbotron":{
+        "text":"Orient Express Investments (OE Investments) is a real estate marketing and investment consultancy company in Turkey, which bridges Turkish developers and Chinese investors around the world. It was established to offer trusted and best-in-class service in the real estate sector, which opened its doors to foreign investment on the heels of the new citizinship&asset Law in September 2018"
+    }
+}

@@ -8,20 +8,38 @@
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img alt="slide1" src="../assets/images/1.jpg">
+			<img class="slider" alt="slide1" src="../assets/images/1.jpg">
 			<div class="carousel-caption">
-				<h1 class="display-5">Investment Consulting</h1>
-				<h3>Consulting services of various sector</h3>
+				<h2 @slideIn class="display-5" data-toggle="animation"
+				 data-animation="slide-left" >INVESTMENT CONSULTING</h2>
+				<h4  @fade>Consulting services of various sector</h4>
 				<button type="button" class="btn btn-outline-light btnss-lg">View
 					Services</button>
 				<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary btn-lg">Contact Us</button>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img alt="slide1" src="../assets/images/2.jpg">
+			<img class="slider" alt="slide1" src="../assets/images/2.jpg">
+			<div class="carousel-caption">
+				<img class="icon me-4" src="../assets/images/Icon1.png" alt="icon1">
+				<img class="icon me-4" src="../assets/images/Icon2.png" alt="icon2">
+				<img class="icon" src="../assets/images/Icon3.png" alt="icon3">
+				<h3 @fade>Consulting services of various sector</h3>
+				<button type="button" class="btn btn-outline-light btnss-lg">View
+					Services</button>
+				<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary btn-lg">Contact Us</button>
+			</div>
 		</div>
 		<div class="carousel-item">
-			<img alt="slide1" src="../assets/images/3.jpg">
+			<img class="slider" alt="slide1" src="../assets/images/3.jpg">
+			<div class="carousel-caption">
+				<h1 @slideIn class="display-5" data-toggle="animation"
+				 data-animation="slide-left" >Investment Consulting</h1>
+				<h3  @fade>Consulting services of various sector</h3>
+				<button type="button" class="btn btn-outline-light btnss-lg">View
+					Services</button>
+				<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary btn-lg">Contact Us</button>
+			</div>
 		</div>
 	</div>
 </div>
