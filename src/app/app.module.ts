@@ -26,6 +26,10 @@ import { TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ImgComponent } from './shared/img/img.component';
+import { PhotogalleryComponent } from './shared/photogallery/photogallery.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { JsonserviceService } from './service/jsonservice.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     GalleryComponent,
     FloatComponent,
     MessageComponent,
-    PopupComponent
+    PopupComponent,
+    ImgComponent,
+    PhotogalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -61,9 +68,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
                 deps: [HttpClient]
             }
         }),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [JsonserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
